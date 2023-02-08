@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="section footer">
       <ul className="footer-links">
-        {DataList.slice(0, 3).map((link) => {
+        {DataList.map((link) => {
           const { id, href, text } = link;
           return (
             <li key={id}>
